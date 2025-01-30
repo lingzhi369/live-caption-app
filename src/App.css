@@ -1,0 +1,67 @@
+/* Center the whole page */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Main app container */
+.container {
+  width: 600px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Caption box with fixed height */
+.caption {
+  font-size: 20px;
+  color: #222;
+  background: #fafafa;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  height: 100px; /* Fixed height to prevent resizing */
+  overflow-y: auto; /* Allows scrolling if text is long */
+  text-align: left;
+  white-space: pre-wrap;
+  margin-top: 20px;
+}
+
+/* Button styles */
+.button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  width: 200px;
+}
+
+.start-button {
+  background-color: green;
+  color: white;
+}
+
+.stop-button {
+  background-color: red;
+  color: white;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
